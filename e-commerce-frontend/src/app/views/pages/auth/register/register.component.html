@@ -1,0 +1,37 @@
+<div class="row w-100 mx-0 auth-page">
+  <div class="col-md-8 col-xl-6 mx-auto">
+    <div class="card">
+      <div class="row">
+        <div class="col-md-4 pe-md-0">
+          <div class="auth-side-wrapper" [ngStyle]="{ 'background-image': 'url(../../../../../assets/images/vinsmokeSanji.jpg)' }">
+
+          </div>
+        </div>
+        <div class="col-md-8 ps-md-0">
+          <div class="auth-form-wrapper px-4 py-5">
+            <a routerLink="." class="Raizen-logo d-block mb-2" style="color: blue">Raizen</a>  
+              <h5 class="text-muted fw-normal mb-4">Crie uma nova conta</h5>
+            <form class="forms-sample">
+              <div class="mb-3">
+                <label for="exampleInputUsername1" class="form-label">Usuário</label>
+                <input [(ngModel)]="user.nome"name="userName"type="text" class="form-control" id="exampleInputUsername1" autocomplete="Username" placeholder="Usuário">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputAddress1" class="form-label">Endereço</label>
+                <input [(ngModel)]="user.endereco" name="address" type="text" class="form-control" id="exampleInputAddress1" placeholder="Endereço">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input [(ngModel)]="user.email" name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary me-2 mb-2 mb-md-0" (click)="nextAndSaveDatas()">Próximo</button>
+              </div>
+              <a routerLink="/auth/login" class="d-block mt-3 text-muted">Já tem conta? Entre</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

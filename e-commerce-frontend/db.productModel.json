@@ -1,0 +1,135 @@
+{
+  "ProductModel": [
+    {
+      "id": 1,
+      "titulo": "Going Merry" ,
+      "descricao": "Going Merry foi o primeiro navio utilizado pelos Piratas do Chapéu de Palha.",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/Going_Merry.png",
+      "quantidade": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Thousand Sunny" ,
+      "descricao": "Thousand Sunny é o segundo navio dos Chapéu de Palha, e atualmente seu principal meio de transporte após a destruição do Going Merry. O navio foi criado por Franky com madeira de uma árvore rara chamada Adam. Segundo Franky, a alma do Going Merry reside nesse navio.",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/Thousand_sunny_sprite.png",
+      "quantidade": 1
+    },
+    {
+      "id": 3,
+      "titulo": "Moby Dick" ,
+      "descricao": "Moby Dick foi o principal navio dos Piratas do Barba Branca. Seu nome foi revelado no terceiro databook.",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/MOBYDICK.png",
+      "quantidade": 1
+    },
+    {
+      "id": 4,
+      "titulo": "Miss Love Duck" ,
+      "descricao": "O Miss Love Duck é o navio de Alvida teve quando foi introduzido pela primeira vez na história. Seu nome foi revelado no terceiro Databook One Piece Yellow: Grandes Elementos.",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/Miss_Love_Duck_Infobox.png",
+      "quantidade": 1
+    },
+    {
+      "id": 5,
+      "titulo": "Big Top" ,
+      "descricao": "O Big-top é o navio de Buggy, o Palhaço. O Terceiro vilão a aparecer em One Piece. Porém o navio 'foi levado' por sua tripulação quando foi preso em Impel Down",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/Big_Top.jpg",
+      "quantidade": 1
+    },
+    {
+      "id": 6,
+      "titulo": "Bezan Black" ,
+      "descricao": "O Bezan Black é o navio pirata que carrega a temida Black Cat Pirates e seu capitão, Kuro. Seu nome foi revelado no terceiro databook.",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/Bezan_Black_Infobox.png",
+      "quantidade": 1
+    },
+    {
+      "id": 7,
+      "titulo": "A garota do lago" ,
+      "descricao": "descricaogo",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/1006574337.jpg",
+      "quantidade": 1
+    },
+    {
+      "id": 8,
+      "titulo": "A garota do lago" ,
+      "descricao": "descricao",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/1006574337.jpg",
+      "quantidade": 1
+    },
+    {
+      "id": 1,
+      "titulo": "Going Merry" ,
+      "descricao": "Going Merry foi o primeiro navio utilizado pelos Piratas do Chapéu de Palha.",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/Going_Merry.png",
+      "quantidade": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Thousand Sunny" ,
+      "descricao": "Thousand Sunny é o segundo navio dos Chapéu de Palha, e atualmente seu principal meio de transporte após a destruição do Going Merry. O navio foi criado por Franky com madeira de uma árvore rara chamada Adam. Segundo Franky, a alma do Going Merry reside nesse navio.",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/Thousand_sunny_sprite.png",
+      "quantidade": 1
+    },
+    {
+      "id": 3,
+      "titulo": "Moby Dick" ,
+      "descricao": "Moby Dick foi o principal navio dos Piratas do Barba Branca. Seu nome foi revelado no terceiro databook.",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/MOBYDICK.png",
+      "quantidade": 1
+    },
+    {
+      "id": 4,
+      "titulo": "Miss Love Duck" ,
+      "descricao": "O Miss Love Duck é o navio de Alvida teve quando foi introduzido pela primeira vez na história. Seu nome foi revelado no terceiro Databook One Piece Yellow: Grandes Elementos.",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/Miss_Love_Duck_Infobox.png",
+      "quantidade": 1
+    },
+    {
+      "id": 5,
+      "titulo": "Big Top" ,
+      "descricao": "O Big-top é o navio de Buggy, o Palhaço. O Terceiro vilão a aparecer em One Piece. Porém o navio 'foi levado' por sua tripulação quando foi preso em Impel Down",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/Big_Top.jpg",
+      "quantidade": 1
+    },
+    {
+      "id": 6,
+      "titulo": "Bezan Black" ,
+      "descricao": "O Bezan Black é o navio pirata que carrega a temida Black Cat Pirates e seu capitão, Kuro. Seu nome foi revelado no terceiro databook.",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/Bezan_Black_Infobox.png",
+      "quantidade": 1
+    },
+    {
+      "id": 7,
+      "titulo": "A garota do lago" ,
+      "descricao": "descricaogo",
+      "preco": 10,
+      "fotos": "../../../../../assets/images/1006574337.jpg",
+      "quantidade": 1
+    },
+    {
+      "id": 8,
+      "titulo": "A garota do lago" ,
+      "descricao": "descricao",
+      "preco": 100,
+      "fotos": "../../../../../assets/images/1006574337.jpg",
+      "quantidade": 1
+    }
+  ]
+}
+
+
+

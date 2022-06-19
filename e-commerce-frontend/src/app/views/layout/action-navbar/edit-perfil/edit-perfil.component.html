@@ -1,0 +1,46 @@
+<mat-card>
+    <p>
+        <mat-toolbar class="toolbar">
+            <span>Editar Perfil</span>
+        </mat-toolbar>
+    </p>
+    <div class="col-md-8 ps-md-0">
+        <div class="foto-perfil">
+            <a >
+                <img class="wd-200 ht-200 rounded-circle" [src]="user.foto" alt="Foto do perfil">
+            </a>
+        </div>
+        <div class="auth-form-wrapper px-4 py-5">
+            <form class="forms-sample">
+                <div class="mb-3">
+                    <label for="exampleInputUsername1" class="form-label">Usuário</label>
+                    <input [(ngModel)]="user.nome" name="userName" type="text" class="form-control" id="exampleInputUsername1"
+                        autocomplete="Username" placeholder="Usuário">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputAddress1" class="form-label">Endereço</label>
+                    <input [(ngModel)]="user.endereco" name="address" type="text" class="form-control" id="exampleInputAddress1"
+                        placeholder="Endereço">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input [(ngModel)]="user.email" name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputLogin1" class="form-label">Login</label>
+                    <input [(ngModel)]="user.login" name="login" type="text" class="form-control" id="exampleInputLogin1" autocomplete="Login"
+                        placeholder="Login">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Senha</label>
+                    <input [(ngModel)]="user.senha" name="senha" type="password" class="form-control" id="exampleInputPassword1"
+                        autocomplete="current-password" placeholder="Senha">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary me-2 mb-2 mb-md-0" (click)="saveData()">Editar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</mat-card>

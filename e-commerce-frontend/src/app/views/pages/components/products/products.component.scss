@@ -1,0 +1,51 @@
+.example-card {
+    display:inline-flex;
+    justify-content: space-between;
+  }
+.example-button-row{
+    margin: 0px 15px;
+}
+  .cart{
+    display: inline-block;
+    justify-content:space-between;
+    vertical-align: top;
+    font-family: "Times New Roman", Times, serif;
+    border: solid 1px #CCC;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.3);
+    height: 320px;
+    width: 280px;
+    margin: 5px 20px;
+    padding: 5px;
+}
+.cart img{
+   width: 100%;
+   max-height: 55%; 
+}
+.cart-info{
+    padding: 10px;
+    height: 90px;
+    overflow: hidden;
+}
+.cart-info-title{
+  text-align: center;
+  margin: 10px 0px;
+}
+.cart-info-subtitle{
+  max-width: 45ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.cart-preco{
+    color: rgb(50, 187, 50);
+    font-weight: bold;
+    font-size: 1.2em;
+    float:right;
+    padding: 15px 20px;
+}
+.card-actions{
+  display:flex;
+}
+.app-title{
+  background-color: transparent;
+}

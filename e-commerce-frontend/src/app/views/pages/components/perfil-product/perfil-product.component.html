@@ -1,0 +1,22 @@
+<mat-card class="card-product">
+    <img mat-card-image width="300" height="300" [src]="product_fotos" alt="Foto de produto">
+      <!--<div mat-card-avatar class="header-image" style="background-image: url('{{product_fotos}}');"></div>-->
+    <mat-card-content class="card-block">
+    <mat-card-title class="card-title">{{product_titulo}}</mat-card-title>
+      <p class="card-descricao">
+        {{product_descricao}}
+      </p>
+      <section>
+        <div class="button-row">
+          <button mat-raised-button color="target" (click)="addItemInCart()">Adicionar ao carrinho</button>
+          <button mat-raised-button color="primary" (click)="purchase()">Comprar agora</button>
+          <!--<a mat-raised-button href="https://www.google.com/" target="_blank">Link</a>-->
+        </div>
+      </section>
+    </mat-card-content>
+
+    <!--<mat-card-actions>
+      <button mat-button>{{product_quantidade}}</button>
+      <button mat-button class="card-preco">{{product_preco}}</button>
+    </mat-card-actions> -->
+  </mat-card>

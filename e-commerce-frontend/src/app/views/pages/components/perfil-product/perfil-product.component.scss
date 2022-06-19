@@ -1,0 +1,47 @@
+.card-product{
+display: inline-flex;
+vertical-align: top;
+font-family: "Times New Roman", Times, serif;
+margin: 5px 20% 10px 0%;
+padding: 2%;
+}
+.card img{
+   display: inline-flex;
+   width: 100%;
+   max-height: 55%; 
+   margin-bottom: 0% !important;
+   padding: 0px;
+   border-radius:5%;  
+}
+.card-block{
+  margin: 0rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title{
+  text-align: center;
+  margin: 5px 5px;
+}
+.card-descricao{
+    margin: 5px 0px 5px 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card-preco{
+    color: rgb(50, 187, 50);
+    font-weight: bold;
+    font-size: 1.2em;
+    float:right;
+    padding: 15px 20px;
+}
+.card-actions{
+  display:flex;
+}
+.button-row{
+  display: flex;
+  justify-content: end;
+  padding: 0.5em;
+}

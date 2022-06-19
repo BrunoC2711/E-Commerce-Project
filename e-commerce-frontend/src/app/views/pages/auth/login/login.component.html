@@ -1,0 +1,35 @@
+<div class="row w-100 mx-0 auth-page">
+  <div class="col-md-8 col-xl-6 mx-auto">
+    <div class="card">
+      <div class="row">
+        <div class="col-md-4 pe-md-0">
+          <div class="auth-side-wrapper"
+            [ngStyle]="{ 'background-image': 'url(../../../../../assets/images/vinsmokeSanji.jpg)' }">
+          </div>
+        </div>
+        <div class="col-md-8 ps-md-0">
+          <div class="auth-form-wrapper px-4 py-5">
+            <a routerLink="." class="Raizen-logo d-block mb-2" style="color:blue">Raizen</a>
+            <h5 class="text-muted fw-normal mb-4">Bem vindo(a) a Raizen</h5>
+            <form class="forms-sample">
+              <div class="mb-3">
+                <label for="exampleInputLogin1" class="form-label">Login</label>
+                <input type="login" class="form-control" id="exampleInputLogin1" name="login"
+                  placeholder="Entre com login" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input name="password" type="password" class="form-control" id="exampleInputPassword1"
+                  autocomplete="current-password" placeholder="Senha">
+              </div>
+              <div>
+                <button type="button" class="btn btn-primary me-2 mb-2 mb-md-0" (click)="login()">Entrar</button>
+              </div>
+              <a routerLink="/auth/register" class="d-block mt-3 text-muted">Não tem conta? Cadastre-se aqui</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
